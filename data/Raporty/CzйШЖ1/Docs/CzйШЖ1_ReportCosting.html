@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--&nbsp;>
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<!&nbsp;-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Kosztorys</title>
+<link href="../../Ressources/SWOODReport.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="print" href="../../Ressources/print.css" />
+<script language="JavaScript"> 
+    function StockImg(StockType) {
+		if (StockType=='PANEL')
+		{
+			StockType='<img  src="../../Ressources/Panel.bmp" alt="Panel" width="16" height="16" border="0" />';
+		}
+		else 
+		{
+			StockType='<img  src="../../Ressources/Laminate.bmp" alt="Laminate" width="16" height="16" border="0" />';
+		}
+		document.write(StockType);
+   }
+   var SumCost=0;
+   var Cost1=0;
+   var Cost2=0;
+   var Cost3=0;
+   var Cost4=0;
+   var Cost5=0;
+   var Cost6=0;
+   var Cost7=0;
+   var Cost8=0;
+  </script>
+</head>
+<body>
+
+<table width="100%" cellpadding="0" cellspacing="0" align="center" class="title_page">
+	<tr>
+		<td width="100" height="50" align="left" valign="center">
+			<table border="0">
+				<tr>
+					<td width="40" align="left" valign="center"><img  src="../../Ressources/griffeblanc.png" alt="Paneldetails" width="30" height="40" border="0" /></td>
+					<td>Kosztorys</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle">Część1</td>
+		<td align="center" valign="middle" width="40">
+		<img  src="../../Ressources/dps.bmp" style="padding: 1px" width="135" height="80" border="0"/>
+		</td>
+	</tr>
+</table>
+
+<div class="menu">
+	<object type="text/html" data="menu.htm" width="100%" height="34px"></object>
+</div>
+
+<table width="100%" cellpadding="2" cellspacing="0" align="center">
+<td></td>					
+	<tr class="font_page">
+		<td align="left" class="corp_page_hardwares">
+			<table cellspacing="0" width="100%" id="cadre_tableau_debit">
+
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+					<script>
+						Cost2=Cost2+(Math.round(1*.500000*40*0*100)/100);
+					</script>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+				
+				
+				
+
+				
+				
+				
+
+				
+				
+				<script>
+					Cost8=Cost8+(Math.round(1*.464576*35*0*100)/100);
+				</script>
+				
+				<script>
+					Cost8=Cost8+(Math.round(1*.464576*35*0*100)/100);
+				</script>
+				
+				
+				
+					<script>
+						SumCost=Cost1+Cost2+Cost3+Cost4+Cost5+Cost6+Cost7+Cost8;
+					</script>
+					
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Koszt całkowity</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+						if (SumCost!=0)  
+						{ 
+							document.write (Math.round(SumCost*100)/100);
+						}
+						</script>
+						 zł
+						</STRONG></a></td>
+				</tr>
+				
+				
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Okucia</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+						if (Cost1!=0)  
+						{ 
+							document.write(Math.round(Cost1*100)/100);
+						}
+						</script>
+						zł
+						</STRONG></a></td>
+				</tr>
+				<tr>
+					<td width="20%" align="center" class="td_corp_page" nowrap="nowrap"><b>Nazwa</b></td>
+					<td width="15%" align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+					<td width="15%" align="center" class="td_corp_page" nowrap="nowrap"><b>Dostawca</b></td>
+					<td width="15%" align="center" class="td_corp_page" nowrap="nowrap"><b>Wykończenie</b></td>
+					<td width="10%" align="center" class="td_corp_page" nowrap="nowrap"><b>Nr katalog.</b></td>
+					<td width="9%" align="center" class="td_corp_page" nowrap="nowrap"><b>Ilość</b></td>
+					<td width="8%" align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+					<td width="8%" align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+				</tr>
+				
+				
+
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Formatki</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+							document.write(Math.round(Cost2*100)/100);
+						</script>
+						 zł
+						</STRONG></a></td>
+				</tr>
+				
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Nazwa</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Wymiar netto</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Wymiar brutto</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Sztuk</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Ilość</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+				</tr>
+				
+				<tr>
+					<td align="left" class="td_corp_page" nowrap="nowrap">Część1 (Bok)</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">Buk 18 + Biała 18</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">1000 x 500 x 36 mm</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">1000 x 500 x 36 mm</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">
+						<script>
+						document.write (Math.round(1*0))
+						</script>
+					</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">
+						<script>
+						document.write (Math.round(1*.500000*1000000)/1000000)
+						</script>
+					m2
+					</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">40 zł</td>
+					<td align="center" class="td_corp_page" nowrap="nowrap">
+						<script>
+							document.write(Math.round(1*.500000*40*0*100)/100)
+						</script>
+					zł</td>
+				</tr>
+				
+				
+				
+
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Laminaty</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+						document.write(Math.round(Cost3*100)/100);
+						</script>
+						zł
+						</STRONG></a></td>
+				</tr>
+				
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Nazwa panelu</br></center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Materiał</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Pozycja laminatu</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Wymiary</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Sztuk</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Pow. lam.</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Koszt jedn.</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Koszt</center></b></td>
+				</tr>
+				
+				
+				
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Elementy lakierowane</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+						document.write(Math.round(Cost5*100)/100);
+						</script>
+						zł
+						</STRONG></a></td>
+				</tr>
+				
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Nazwa panelu</br></center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Materiał</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Wymiary</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Sztuk</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Ilość warstw</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Pow. lak.</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Koszt jedn.</center></b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b><center>Koszt</center></b></td>
+				</tr>
+				
+				
+
+				
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Szkło</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+							document.write(Math.round(Cost6*100)/100);
+						</script>
+						 zł
+						</STRONG></a></td>
+				</tr>
+				
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Nazwa</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Kolor</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Wymiar brutto</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Sztuk</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Ilość</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+				</tr>
+				
+				
+								
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Profile</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+							document.write(Math.round(Cost7*100)/100);
+						</script>
+						 zł
+						</STRONG></a></td>
+				</tr>
+				
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Nazwa</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Długość / z naddatkiem</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Przekrój</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Sztuk</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Ilość</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+				</tr>
+				
+				
+
+								
+								<tr><td colspan="8" height="20"></td></tr>
+								<tr class="cellule_menu">
+									<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Multibody</STRONG></a></td>
+									<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+										<script>
+											document.write(Math.round(Cost8*100)/100);
+										</script>
+										 zł
+										</STRONG></a></td>
+								</tr>
+								
+								<tr>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Nazwa</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Wymiar netto</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Usłojenie</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Sztuk</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Ilość</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+									<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+								</tr>
+
+								
+								<tr>
+									<td align="left" class="td_corp_page" nowrap="nowrap">Część1 (LAYER2)</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">White 18</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">976 x 476 x 18</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+											<script>
+												if (0==0)  
+												{ 
+													document.write ('Nie');
+												} else {
+													document.write ('Tak');
+												}
+											</script>
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+										document.write (Math.round(0))
+										</script>
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+										document.write (Math.round(.464576*1000000)/1000000)
+										</script>
+									m2
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">35 zł</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+											document.write(Math.round(.464576*35*0*100)/100)
+										</script>
+									zł</td>
+								</tr>
+								
+								<tr>
+									<td align="left" class="td_corp_page" nowrap="nowrap">Część1 (LAYER1)</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">Beech 18</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">976 x 476 x 18</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+											<script>
+												if (1==0)  
+												{ 
+													document.write ('Nie');
+												} else {
+													document.write ('Tak');
+												}
+											</script>
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+										document.write (Math.round(0))
+										</script>
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+										document.write (Math.round(.464576*1000000)/1000000)
+										</script>
+									m2
+									</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">35 zł</td>
+									<td align="center" class="td_corp_page" nowrap="nowrap">
+										<script>
+											document.write(Math.round(.464576*35*0*100)/100)
+										</script>
+									zł</td>
+								</tr>
+								
+								
+
+				
+				<tr><td colspan="8" height="20"></td></tr>
+				<tr class="cellule_menu">
+					<td colspan="7" height="20" align="center" valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>Obrzeża</STRONG></a></td>
+					<td  nowrap="nowrap" align="center"  valign="middle" ><a style="text-decoration:none; color:#FFFFFF"><STRONG>
+						<script>
+						document.write(Math.round(Cost4*100)/100);
+						</script>
+						zł
+						</STRONG></a></td>
+				</tr>
+				<tr>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Element oklejany</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Materiał</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Grubość</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Sztuk</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Naddatek</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Długość</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt jedn.</b></td>
+					<td align="center" class="td_corp_page" nowrap="nowrap"><b>Koszt</b></td>
+				</tr>
+				
+				
+				
+			</table>
+		</td>
+	</tr>
+	<tr><td class="font_page" colspan="2" height="20"></td></tr>
+	<tr><td colspan="2"></td></tr>
+</table>
+</body>
+</html>

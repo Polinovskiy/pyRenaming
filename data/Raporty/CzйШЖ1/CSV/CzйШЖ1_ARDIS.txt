@@ -1,0 +1,4 @@
+PartMat	PartD	PartL	PartW	PartQty	PartRef	PartRemark2	PartEdge1	PartEdge2	PartEdge3	PartEdge4
+Buk 18 + Bia³a 18		1000	500	1	Czêœæ1					
+Buk 18 + Bia³a 18		1000	500	1	Czêœæ1					
+Buk 18 + Bia³a 18		1000	500	1	Czêœæ1					

@@ -1,0 +1,1 @@
+PartMat	PartD	PartL	PartW	PartQty	PartRef	PartRemark2	PartEdge1	PartEdge2	PartEdge3	PartEdge4
